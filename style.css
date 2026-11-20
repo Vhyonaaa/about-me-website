@@ -127,8 +127,17 @@ li {
 	border-radius: 0.5rem;}
 	
 
-/* CONTACT LINKS */
-a {
+/* CONTACT INFORMATION */
+
+#contact {
+	text-align: center;
+}
+
+#contact p {
+	text-align: center;
+}
+
+#contact a {
 	color: #704477;
 }
 
