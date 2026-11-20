@@ -61,6 +61,11 @@ nav a:hover {
 	color: #3B2438;
 }
 
+nav a:focus {
+	outline: 2px solid #57305F;
+	outline-offset: 3px;
+}
+
 /* MAIN CONTENT */
 main{
 	max-width: 950px;
@@ -92,6 +97,7 @@ h4, h5, h6 {
 p {
 	font-size: 1rem;
 	text-align: justify;
+	margin-bottom: 1rem;
 }
 
 li {
@@ -150,8 +156,9 @@ li {
 	height: auto;
 	margin: 1rem auto;
 	border: 3px solid #e8c9dc;
-	border-radius: 0.5rem;}
-	
+	border-radius: 0.5rem;
+}
+
 
 /* CONTACT INFORMATION */
 
@@ -219,5 +226,11 @@ footer {
 	
 	p {
 		text-align: left;
+	}
+
+	nav a {
+		padding: 0.6rem 0.9rem;
+		margin: 0.2rem;
+		font-size: 0.9rem;
 	}
 }
