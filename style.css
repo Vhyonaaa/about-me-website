@@ -1,0 +1,188 @@
+/* GENERAL STYLE */
+
+* {
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Lato', Arial, sans-serif;
+	background-color: #f8edf5;
+	color: #333333;
+	margin: 0;
+	padding: 2rem;
+	line-height: 1.6;
+	font-size: 1rem;
+}
+
+/* HEADER */
+header {
+	text-align: center;
+	background-color: #e8c9dc;
+	padding: 2rem;
+	border-radius: 1rem;
+	margin-bottom: 2rem;
+}
+
+h1{
+	font-family: 'Playfair Display', Georgia, serif;
+	font-size: 2rem;
+	color: #3B2438;
+}
+
+header h2 {
+	font-family: 'Playfair Display', Georgia, serif;
+	font-size: 1.2rem;
+		color: #3B2438;
+}
+
+/* MAIN CONTENT */
+main{
+	max-width: 950px;
+	margin: auto;
+	background-color: white;
+	padding: 2rem;
+	border-radius: 1rem;
+}
+
+section{
+	padding: 1.5rem;
+	margin-bottom: 1rem;
+}
+
+h3 {
+	font-family: 'Playfair Display', Georgia, serif;
+	text-align: center;
+	color: #57305F;
+	font-size: 1.5rem;
+}
+
+h4, h5, h6 {
+	font-family: 'Playfair Display', Georgia, serif;
+	text-align: center;
+	font-size: 1rem;
+	color: #57305F;
+}
+
+p {
+	font-size: 1rem;
+	text-align: justify;
+}
+
+li {
+	font-size: 1rem;
+}
+
+/* ABOUT ME - FLEXBOX */
+
+.about-container {
+	display: flex;
+	align-items: center;
+	gap: 2rem;
+}
+
+.photo-placeholder {
+	background-color: #e8c9dc;
+	min-width: 250px;
+	min-height: 250px;
+	padding: 1rem;
+	border: 2px solid #b78db5;
+	border-radius: 1rem;
+	
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	gap: 0.5rem;
+}
+
+.photo-placeholder h3{
+	margin: 0;
+	color: #57305F;
+}
+
+.photo-placeholder img {
+	display: block;
+	width: 100%;
+	max-width: 220px;
+	height: auto;
+	object-fit: cover;
+	border-radius: 0.5rem;
+}
+
+.bio {
+	flex: 1;
+	min-width: 0;
+}
+
+/* PASSION PROJECTS */
+
+.project-image {
+	display: block;
+	width: 60%;
+	max-width: 300px;
+	height: auto;
+	margin: 1rem auto;
+	border: 3px solid #e8c9dc;
+	border-radius: 0.5rem;}
+	
+
+/* CONTACT LINKS */
+a {
+	color: #704477;
+}
+
+/* FOOTER */
+footer {
+	text-align: center;
+	padding: 1.5rem;
+	margin-top: 1rem;
+	font-size: 0.9rem;
+}
+
+/* MOBILE RESPONSIVE DESIGN */
+
+@media (max-width: 600px) {
+
+	body {
+		padding: 1rem;
+	}
+	
+	header {
+		padding: 1rem;
+	}
+	
+	h1 {
+		font-size: 1.5rem;
+	}
+	
+	main {
+		padding: 1rem;
+	}
+	
+	section {
+		padding: 1rem 0.5rem;
+	}
+	
+	.about-container {
+		flex-direction: column;
+		text-align: center;
+	}
+	
+	.photo-placeholder {
+		width: 150px;
+		max-width: 250px;
+	}
+	
+	.photo-placeholder img {
+		width: 150px;
+		max-width: 200px;
+	}
+	.project-image {
+		width: 90%;
+	}
+	
+	p {
+		text-align: left;
+	}
+}
