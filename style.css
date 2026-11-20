@@ -35,6 +35,32 @@ header h2 {
 		color: #3B2438;
 }
 
+/* NAVIGATION MENU */
+
+nav {
+	text-align: center;
+	margin: 1.5rem auto 2rem;
+}
+
+nav a {
+	display: inline-block;
+	font-family: 'Lato', Arial, sans-serif;
+	font-size: 0.95rem;
+	color: #57305F;
+	text-decoration: none;
+	background-color: #f3e1ed;
+	padding: 0.7rem 1.2rem;
+	margin: 0.3rem;
+	border: 1px solid #e8c9dc;
+	border-radius: 2rem;
+	transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+	background-color: #e8c9dc;
+	color: #3B2438;
+}
+
 /* MAIN CONTENT */
 main{
 	max-width: 950px;
