@@ -170,12 +170,12 @@ footer {
 	}
 	
 	.photo-placeholder {
-		width: 150px;
+		width: 100%;
 		max-width: 250px;
 	}
 	
 	.photo-placeholder img {
-		width: 150px;
+		width: 100%;
 		max-width: 200px;
 	}
 	.project-image {
